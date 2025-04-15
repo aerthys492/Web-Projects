@@ -1,0 +1,31 @@
+# IDE
+.idea/
+
+# systemowe
+.DS_Store
+Thumbs.db
+
+# logi i debug
+*.log
+*.tmp
+
+# zależności (npm / yarn)
+node_modules/
+
+# kompilowane zasoby
+dist/
+build/
+
+# środowiskowe / konfiguracje lokalne
+.env
+.env.local
+*.env.*
+
+# cache narzędzi
+.cache/
+.vscode/
+
+# inne
+*.bak
+*.swp
+*.swo

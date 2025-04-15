@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #9586f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#search {
+    width: calc(100% - 20px); /* Odejmuje padding */
+    max-width: 360px; /* Zapewnia, że nie będzie szersze niż kontener */
+    padding: 10px;
+    margin: 0 auto 20px auto; /* Centruje pole wyszukiwania i dodaje odstęp na dole */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+}
+
+#task-list {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 360px; /* Ustaw maksymalną szerokość listy */
+    margin-bottom: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.task span {
+    cursor: pointer;
+    flex: 1;
+}
+
+.task button {
+    background-color: #34eb80;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #18a161;
+}
+
+.add-task {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add-task input[type="text"],
+.add-task input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 180px;
+}
+
+.add-task button {
+    padding: 10px 20px;
+    background-color: #226dd6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #223ad6;
+}
+
+mark {
+    background-color: yellow;
+    font-weight: bold;
+}
